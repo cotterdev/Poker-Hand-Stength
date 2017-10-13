@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,12 +11,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Find Mandingo.vi" Type="VI" URL="../Find Mandingo.vi"/>
-		<Item Name="Find Yellow.vi" Type="VI" URL="../Find Yellow.vi"/>
+		<Item Name="Get VIs" Type="Folder">
+			<Item Name="Find Mandingo.vi" Type="VI" URL="../Find Mandingo.vi"/>
+			<Item Name="Find Yellow.vi" Type="VI" URL="../Find Yellow.vi"/>
+			<Item Name="Search Yellow Grid.vi" Type="VI" URL="../Search Yellow Grid.vi"/>
+			<Item Name="OCR Player Money3.vi" Type="VI" URL="../OCR Player Money3.vi"/>
+			<Item Name="OCR Player Names.vi" Type="VI" URL="../OCR Player Names.vi"/>
+		</Item>
 		<Item Name="Front Panel.vi" Type="VI" URL="../Front Panel.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="OCR Player Money3.vi" Type="VI" URL="../OCR Player Money3.vi"/>
-		<Item Name="OCR Player Names.vi" Type="VI" URL="../OCR Player Names.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
