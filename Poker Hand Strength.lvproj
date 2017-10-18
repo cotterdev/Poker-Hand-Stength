@@ -12,14 +12,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Get VIs" Type="Folder">
-			<Item Name="Find Mandingo.vi" Type="VI" URL="../Find Mandingo.vi"/>
+			<Item Name="Find 007.vi" Type="VI" URL="../Find 007.vi"/>
 			<Item Name="Find Yellow.vi" Type="VI" URL="../Find Yellow.vi"/>
 			<Item Name="Search Yellow Grid.vi" Type="VI" URL="../Search Yellow Grid.vi"/>
-			<Item Name="OCR Player Money3.vi" Type="VI" URL="../OCR Player Money3.vi"/>
-			<Item Name="OCR Player Names.vi" Type="VI" URL="../OCR Player Names.vi"/>
+			<Item Name="OCR Get Money.vi" Type="VI" URL="../OCR Get Money.vi"/>
+			<Item Name="OCR Get Names.vi" Type="VI" URL="../OCR Get Names.vi"/>
 		</Item>
-		<Item Name="Front Panel.vi" Type="VI" URL="../Front Panel.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="007 Data.ctl" Type="VI" URL="../007 Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
