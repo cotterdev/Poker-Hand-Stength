@@ -23,6 +23,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="007 Data.ctl" Type="VI" URL="../007 Data.ctl"/>
 		<Item Name="Get 007 Money.vi" Type="VI" URL="../Get 007 Money.vi"/>
+		<Item Name="Card1 Suit.vi" Type="VI" URL="../Card1 Suit.vi"/>
+		<Item Name="Suit Enum.ctl" Type="VI" URL="../Suit Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -60,6 +62,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Is Club.vi" Type="VI" URL="../Is Club.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
