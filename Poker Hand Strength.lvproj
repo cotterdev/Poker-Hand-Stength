@@ -13,7 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Get VIs" Type="Folder">
 			<Item Name="OCR" Type="Folder">
-				<Item Name="OCR Get Money.vi" Type="VI" URL="../OCR Get Money.vi"/>
+				<Item Name="OCR Get Money2.vi" Type="VI" URL="../OCR Get Money2.vi"/>
 				<Item Name="OCR Get Names.vi" Type="VI" URL="../OCR Get Names.vi"/>
 			</Item>
 			<Item Name="Find 007.vi" Type="VI" URL="../Find 007.vi"/>
